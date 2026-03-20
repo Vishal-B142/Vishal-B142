@@ -49,11 +49,12 @@
 
 | Project | What it does | Stack |
 |---|---|---|
-| [k3s-production-cluster](https://github.com/Vishal-B142/k3s-production-cluster) | Production-grade self-hosted Kubernetes with Traefik, MetalLB, cert-manager | k3s, Traefik, Helm, cert-manager |
-| [jenkins-k8s-pipeline](https://github.com/Vishal-B142/jenkins-k8s-pipeline) | Jenkins CI/CD pipeline with Trivy scanning and direct k8s deployment | Jenkins, Docker, Trivy, kubectl |
-| [terraform-aws-infra](https://github.com/Vishal-B142/terraform-aws-infra) | IaC modules for ECS Fargate, ALB, RDS, CloudWatch | Terraform, AWS |
-| [observability-stack](https://github.com/Vishal-B142/observability-stack) | Prometheus + Grafana stack with pre-built dashboards and alert rules | Prometheus, Grafana, Docker Compose |
-| [docker-compose-files](https://github.com/Vishal-B142/docker-compose-files) | Collection of production-ready Docker Compose configs | Docker, MySQL, PostgreSQL, Jenkins, SonarQube |
+| [k3s-dev-staging](https://github.com/Vishal-B142/k3s-dev-staging) | Production-grade self-hosted Kubernetes with Traefik, MetalLB, Blue/Green, full observability | k3s, Traefik, Helm, Prometheus, Grafana, Loki |
+| [eks-production](https://github.com/Vishal-B142/eks-production) | Production Kubernetes on AWS EKS — multi-AZ, ALB, IRSA, Terraform | EKS, Terraform, ALB, ACM |
+| [jenkins-k8s-pipeline](https://github.com/Vishal-B142/jenkins-k8s-pipeline) | Two-pipeline CI/CD — blue/green deploy with Trivy security gate | Jenkins, Docker, Trivy, kubectl |
+| [observability-stack](https://github.com/Vishal-B142/observability-stack) | Prometheus + Grafana + Loki + Promtail with SLA breach alerting | Prometheus, Grafana, Loki, Helm |
+| [terraform-aws-infra](https://github.com/Vishal-B142/terraform-aws-infra) | Reusable IaC modules for ECR, ECS Fargate, ALB, CloudWatch | Terraform, AWS |
+| [docker-compose-files](https://github.com/Vishal-B142/docker-compose-files) | Production-ready Docker Compose configs for Jenkins, SonarQube, PostgreSQL, MySQL | Docker |
 | [Foody-Bangalore](https://github.com/Vishal-B142/Foody-Bangalore) | Data analysis ranking top Bengaluru restaurants from scraped data | Python, Scrapy, Matplotlib |
 
 ---
@@ -64,7 +65,7 @@
 - 💰 **~30% cost reduction** — migrated AWS ECS to self-hosted k3s on VPS
 - ✅ **99%+ uptime** sustained across all production environments
 - 🔒 **Zero vulnerable images in production** — Trivy scanning gated into every pipeline
-- 🔄 **Zero-downtime releases** — rolling updates + multi-namespace k3s architecture
+- 🔄 **Zero-downtime releases** — blue/green deployments across all services
 
 ---
 
@@ -77,5 +78,8 @@
 
 ## 📬 Connect
 
+> 🏢 **Open to onsite / full-time roles** → [![Email](https://img.shields.io/badge/vishal.b.1424@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:vishal.b.1424@gmail.com)
+
+> 💼 **Freelance / contract enquiries** → [![Email](https://img.shields.io/badge/vishal.142b@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:vishal.142b@gmail.com)
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/vishalb142)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:vishal.b.1424@gmail.com)
