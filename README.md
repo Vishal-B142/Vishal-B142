@@ -6,8 +6,8 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vishalb142)
 [![Fiverr](https://img.shields.io/badge/Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://fiverr.com/neverdownvb)
-[![Email](https://img.shields.io/badge/Jobs%20%7C%20vishal.b.1424@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vishal.b.1424@gmail.com)
-[![Email](https://img.shields.io/badge/Freelance%20%7C%20vishal.142b@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vishal.142b@gmail.com)
+[![Email](https://img.shields.io/badge/Jobs%20%7C%20vishal.b.1424@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vishal.142b@gmail.com)
+[![Email](https://img.shields.io/badge/Freelance%20%7C%20vishal.142b@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vishal.b.1424@gmail.com)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Vishal-B142&color=00d9ff&style=flat-square&label=Profile+Views)
 
